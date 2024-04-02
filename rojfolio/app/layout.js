@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="containe h-[90vh] flex mt-20 m-auto w-[90%]">
+        <div className="containe h-auto flex mt-20 m-auto w-[90%]">
           <div className="border rounded-2xl w-1/4 m-1 bg-stone-800  ">
             <NavberProfile />
           </div>

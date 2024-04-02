@@ -1,85 +1,87 @@
+"use client"
+
 import React from 'react'
 import profilePic from "@/public/profile-pic (5).png"
 import Image from 'next/image'
+import { Icon } from '@iconify/react';
 
 const NavberProfile = () => {
   return (
     <aside className="text-white" >
 
-      <div className="border border-blue-900 m-auto w-[90%] mt-5 rounded-3xl flex flex-col align-middle justify-center">
+      <div className="border border-blue-900 m-auto w-[90%] mt-5 rounded-3xl flex flex-col align-middle justify-center items-center">
 
         <div className="rounded-3xl">
-          <Image className='rounded-3xl' src={profilePic} alt="MD FIROJ AHMED" width={"80%"}/>
+          <Image className='rounded-3xl' src={profilePic} alt="MD FIROJ AHMED" width={"80%"} />
         </div>
 
         <div className="mt-5">
-          <h1 className="text-center font-bold " title="MD FIROJ AHMED">MD FIROJ AHMED</h1>
+          <h1 className="text-center font-bold text-2xl" title="MD FIROJ AHMED">MD FIROJ AHMED</h1>
 
-          <p className="text-center mt-3">Web developer</p>
+          <p className="text-center mt-3 text-xl">Web developer</p>
         </div>
 
-        <button className="mt-5">
-          <span>Show Contacts</span>
+        <button className="mt-5 border border-black rounded-md w-fit bg-orange-500">
+          <span className="p-3 ">Show Contacts</span>
         </button>
 
       </div>
 
-      <div className="sidebar-info_more">
+      <div className=" border border-black m-3">
 
-        <div className="separator"></div>
+        <div className="border border-y-black"></div>
 
-        <ul className="contacts-list">
+        <ul className="m-2">
 
-          <li className="contact-item">
+          <li className="flex justify-around w-full align-middle mb-3">
 
-            <div className="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
+            <div className="borde rounded-xl  shadow-md shadow-slate-600 p-3 h-10 mt-1">
+              <Icon icon="nimbus:mail" style={{ color: "#FFCC00" }} className="items-center"/>
             </div>
 
-            <div className="contact-info">
-              <p className="contact-title">Email</p>
+            <div className="flex flex-col w-[80%] ">
+              <p className="text-yellow-200">Email</p>
 
-              <a href="mailto:firozahmed3052000@gmail.com" className="contact-link">firozahmed3052000@gmail.com</a>
-            </div>
-
-          </li>
-
-          <li className="contact-item">
-
-            <div className="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div className="contact-info">
-              <p className="contact-title">Phone</p>
-
-              <a href="tel:9830340650" className="contact-link">9830340650</a>
+              <a href="mailto:firozahmed3052000@gmail.com" className="">firozahmed3052000...</a>
             </div>
 
           </li>
 
-          <li className="contact-item">
+          <li className="flex justify-around w-full align-middle  mb-3">
 
-            <div className="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
+            <div className="borde rounded-xl  shadow-md shadow-slate-600 p-3 h-10 mt-1">
+              <Icon icon="material-symbols-light:smartphone-outline" style={{ color: "#FFCC00" }} />
             </div>
 
-            <div className="contact-info">
-              <p className="contact-title">Birthday</p>
-
-              <time datetime="1982-06-23">May 30, 2000</time>
+            <div className="flex flex-col w-[80%] ">
+              <p className="text-yellow-200">Phone</p>
+              <a href="tel:9830340650" className="">9830340650</a>
             </div>
 
           </li>
 
-          <li className="contact-item">
+          <li className="flex justify-around w-full align-middle  mb-3">
 
-            <div className="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
+            <div className="borde rounded-xl  shadow-md shadow-slate-600 p-3 h-10 mt-1">
+              <Icon icon="material-symbols-light:calendar-month-rounded" style={{ color: "#FFCC00" }} />
             </div>
 
-            <div className="contact-info">
-              <p className="contact-title">Location</p>
+            <div className="flex flex-col w-[80%] ">
+              <p className="text-yellow-200">Birthday</p>
+
+              <time datetime="">May 30, 2000</time>
+            </div>
+
+          </li>
+
+          <li className="flex justify-around w-full align-middle  mb-3">
+
+            <div className="borde rounded-xl  shadow-md shadow-slate-600 p-3 h-10 mt-1">
+              <Icon icon="material-symbols-light:location-on-rounded" style={{ color: "#FFCC00" }} />
+            </div>
+
+            <div className="flex flex-col w-[80%] ">
+              <p className="text-yellow-200">Location</p>
 
               <address>Vill+Post=Ghuni,
                 P.S.=Newtown,
@@ -92,25 +94,24 @@ const NavberProfile = () => {
 
         </ul>
 
-        <div className="separator"></div>
 
-        <ul className="social-list">
+        <ul className="">
 
-          <li className="social-item">
-            <a href="https://www.linkedin.com/in/md-firoj-ahmed-8209a01bb/" className="social-link" target="_blank">
-              <ion-icon name="logo-linkedin"></ion-icon>
+          <li className="">
+            <a href="https://www.linkedin.com/in/md-firoj-ahmed-8209a01bb/" className="" target="_blank">
+              <Icon icon="entypo-social:linkedin-with-circle" style={{ color: "#2935db" }} />
             </a>
           </li>
 
-          <li className="social-item">
-            <a href="https://github.com/firojahmed1313" className="social-link" target="_blank">
-              <ion-icon name="logo-github"></ion-icon>
+          <li className="">
+            <a href="https://github.com/firojahmed1313" className="" target="_blank">
+            <Icon icon="entypo-social:github"  style={{color: "#2935db"}} />
             </a>
           </li>
 
-          <li className="social-item">
-            <a href="https://auth.geeksforgeeks.org/user/firozahmed3052000" className="social-link" target="_blank">
-              <ion-icon name="link"></ion-icon>
+          <li className="">
+            <a href="https://auth.geeksforgeeks.org/user/firozahmed3052000" className="" target="_blank">
+            <Icon icon="material-symbols:link-rounded"  style={{color: "#2935db"}} />
             </a>
           </li>
 
