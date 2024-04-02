@@ -14,16 +14,16 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="container border border-red-500 h-[90vh] flex ">
-          <div className="border border-blue-500 w-1/5 m-1">
+        <div className="containe h-[90vh] flex mt-20 m-auto w-[90%]">
+          <div className="border rounded-2xl w-1/4 m-1 bg-stone-800  ">
             <NavberProfile />
           </div>
-          <div className="border border-black w-4/5 m-1">
-            <div className="flex align-middle justify-center border border-green-900 flex-col">
-              <div className="border border-gray-800 h-[10dvh]">
+          <div className="border border-black w-3/4 m-1">
+            <div className="flex flex-col align-middle justify-center border border-green-900 items-end">
+              <div className=" h-auto mt-5 items-center ">
                 <Navber />
               </div>
-              <div className="border border-gray-800 h-[70vh]">
+              <div className="border border-gray-800 h-[70vh] mt-5 w-full ">
                 {children}
               </div>
             </div>
