@@ -9,7 +9,7 @@ const NavberProfile = () => {
   return (
     <aside className="text-white" >
 
-      <div className="border border-blue-900 m-auto w-[90%] mt-5 rounded-3xl flex flex-col align-middle justify-center items-center">
+      <div className="m-auto w-[90%] mt-5 rounded-3xl flex flex-col align-middle justify-center items-center">
 
         <div className="rounded-3xl">
           <Image className='rounded-3xl' src={profilePic} alt="MD FIROJ AHMED" width={"80%"} />
@@ -27,7 +27,7 @@ const NavberProfile = () => {
 
       </div>
 
-      <div className=" border border-black m-3">
+      <div className="m-3">
 
         <div className="border border-y-black"></div>
 
@@ -35,8 +35,8 @@ const NavberProfile = () => {
 
           <li className="flex justify-around w-full align-middle mb-3">
 
-            <div className="borde rounded-xl  shadow-md shadow-slate-600 p-3 h-10 mt-1">
-              <Icon icon="nimbus:mail" style={{ color: "#FFCC00" }} className="items-center"/>
+            <div className="borde rounded-xl  shadow-md shadow-slate-600 p-3 mt-1 mr-2">
+              <Icon icon="nimbus:mail" style={{ color: "#FFCC00" }} className="items-center h-7 w-7"/>
             </div>
 
             <div className="flex flex-col w-[80%] ">
@@ -49,8 +49,8 @@ const NavberProfile = () => {
 
           <li className="flex justify-around w-full align-middle  mb-3">
 
-            <div className="borde rounded-xl  shadow-md shadow-slate-600 p-3 h-10 mt-1">
-              <Icon icon="material-symbols-light:smartphone-outline" style={{ color: "#FFCC00" }} />
+            <div className="borde rounded-xl  shadow-md shadow-slate-600 p-3  mt-1 mr-2">
+              <Icon icon="material-symbols-light:smartphone-outline" style={{ color: "#FFCC00" }} className="items-center h-7 w-7"/>
             </div>
 
             <div className="flex flex-col w-[80%] ">
@@ -62,8 +62,8 @@ const NavberProfile = () => {
 
           <li className="flex justify-around w-full align-middle  mb-3">
 
-            <div className="borde rounded-xl  shadow-md shadow-slate-600 p-3 h-10 mt-1">
-              <Icon icon="material-symbols-light:calendar-month-rounded" style={{ color: "#FFCC00" }} />
+            <div className="borde rounded-xl  shadow-md shadow-slate-600 p-3  mt-1 mr-2">
+              <Icon icon="material-symbols-light:calendar-month-rounded" style={{ color: "#FFCC00" }} className="items-center h-7 w-7"/>
             </div>
 
             <div className="flex flex-col w-[80%] ">
@@ -74,10 +74,10 @@ const NavberProfile = () => {
 
           </li>
 
-          <li className="flex justify-around w-full align-middle  mb-3">
+          <li className="flex justify-around w-full align-middle mb-3">
 
-            <div className="borde rounded-xl  shadow-md shadow-slate-600 p-3 h-10 mt-1">
-              <Icon icon="material-symbols-light:location-on-rounded" style={{ color: "#FFCC00" }} />
+            <div className="borde rounded-xl  shadow-md shadow-slate-600 p-3 h-max  mt-1 mr-2 align-middle">
+              <Icon icon="material-symbols-light:location-on-rounded" style={{ color: "#FFCC00" }} className="items-center h-7 w-7" />
             </div>
 
             <div className="flex flex-col w-[80%] ">
@@ -95,23 +95,23 @@ const NavberProfile = () => {
         </ul>
 
 
-        <ul className="">
+        <ul className="flex align-middle justify-evenly">
 
-          <li className="">
+          <li className="borde rounded-xl  shadow-md shadow-slate-600 p-3 mt-1">
             <a href="https://www.linkedin.com/in/md-firoj-ahmed-8209a01bb/" className="" target="_blank">
-              <Icon icon="entypo-social:linkedin-with-circle" style={{ color: "#2935db" }} />
+              <Icon icon="entypo-social:linkedin-with-circle" style={{ color: "#2935db" }} className="h-10 w-10" />
             </a>
           </li>
 
-          <li className="">
+          <li className="borde rounded-xl  shadow-md shadow-slate-600 p-3 mt-1">
             <a href="https://github.com/firojahmed1313" className="" target="_blank">
-            <Icon icon="entypo-social:github"  style={{color: "#2935db"}} />
+            <Icon icon="entypo-social:github"  style={{color: "#2935db"}} className="h-10 w-10" />
             </a>
           </li>
 
-          <li className="">
+          <li className="borde rounded-xl  shadow-md shadow-slate-600 p-3 mt-1">
             <a href="https://auth.geeksforgeeks.org/user/firozahmed3052000" className="" target="_blank">
-            <Icon icon="material-symbols:link-rounded"  style={{color: "#2935db"}} />
+            <Icon icon="material-symbols:link-rounded"  style={{color: "#2935db"}} className="h-10 w-10" />
             </a>
           </li>
 
