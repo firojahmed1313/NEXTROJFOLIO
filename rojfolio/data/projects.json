@@ -1,0 +1,123 @@
+[
+  {
+    "name": "F-e-manas-Hotel",
+    "desc": "Fully fledged Website based on different design patterns. Built using HTML, CSS, Javascript, Bootstrap.",
+    "image": "hotel",
+    "category": "Website",
+    "links": {
+      "view": "https://firojahmed1313.github.io/-F-e-manas-Hotel.github.io/",
+      "code": "https://github.com/firojahmed1313/-F-e-manas-Hotel.github.io"
+    }
+  },
+  {
+    "name": "Moviezone",
+    "desc": "Fully fledged Website based on different design patterns. Built using React js, HTML, CSS, bootstrap, Reduxsaga.",
+    "image": "Moviezone",
+    "category": "Website",
+    "links": {
+      "view": "https://moviezoneapi.netlify.app/",
+      "code": "https://github.com/firojahmed1313/moviezoneapi"
+    }
+  },
+  {
+    "name": "SmartPool",
+    "desc": "Fully fledged Website based on different design patterns. Built using React js, BlogChain.",
+    "image": "SmartPool",
+    "category": "Website",
+    "links": {
+      "view": "https://smartpool-mdfirojahmed.vercel.app/",
+      "code": "https://github.com/firojahmed1313/College-project"
+    }
+  },
+  {
+    "name": "Roj Blog",
+    "desc": "Fullend project  a Blog app using React. js, node.js, express, MongoDB for daily use.",
+    "image": "rojblog",
+    "category": "React",
+    "links": {
+      "view": "https://rojblog-firojahmed.vercel.app/",
+      "code": "https://github.com/firojahmed1313/ROJBLOGFB"
+    }
+  },
+  {
+    "name": "To-Do",
+    "desc": "Frontend project  a To-Do app using React js for daily use.",
+    "image": "todoapp",
+    "category": "React",
+    "links": {
+      "view": "https://to-do-list-firojahmed.vercel.app/",
+      "code": "https://github.com/firojahmed1313/To-Do-List"
+    }
+  },
+  {
+    "name": "E-blog",
+    "desc": "All in one Engineering resources. Built using HTML, CSS, Javascript, Bootstrap.",
+    "image": "eblog",
+    "category": "Website",
+    "links": {
+      "view": "https://firojahmed1313.github.io/e-blog.github.io/",
+      "code": "https://github.com/firojahmed1313/e-blog.github.io"
+    }
+  },
+  {
+    "name": "GymLife",
+    "desc": "Gym website built using HTML, CSS, Javascript, Bootstrap. Provides different category .",
+    "image": "gym",
+    "category": "Website",
+    "links": {
+      "view": "https://firojahmed1313.github.io/GymLife.github.io/",
+      "code": "https://github.com/firojahmed1313/GymLife.github.io"
+    }
+  },
+  {
+    "name": "Travel",
+    "desc": "Travel website built using Html, Css. Provides a place for enjoy.",
+    "image": "travel",
+    "category": "Website",
+    "links": {
+      "view": "https://firojahmed1313.github.io/Travel.github.io/index.html",
+      "code": "https://github.com/firojahmed1313/Travel.github.io"
+    }
+  },
+  {
+    "name": "Food-delivery",
+    "desc": "Frontend food delivery website built using Html, Css",
+    "image": "food_delivary",
+    "category": "Website",
+    "links": {
+      "view": "https://firojahmed1313.github.io/food-delivary.github.io/",
+      "code": "https://github.com/firojahmed1313/food-delivary.github.io"
+    }
+  },
+  {
+    "name": "Clock",
+    "desc": "Create clock using HTML, CSS, Javascript.",
+    "image": "clock",
+    "category": "Website",
+    "links": {
+      "view": "https://firojahmed1313.github.io/clock.github.io/",
+      "code": "https://github.com/firojahmed1313/clock.github.io"
+    }
+  },
+  {
+    "name": "Car",
+    "desc": "Create Car game using HTML, CSS, Javascript.",
+    "image": "car",
+    "category": "Website",
+    "links": {
+      "view": "https://firojahmed1313.github.io/car.github.io/",
+      "code": "https://github.com/firojahmed1313/car.github.io"
+    }
+  },
+  
+  {
+    "name": "NEXTBAZAR",
+    "desc": "Create an E-commerce website  Using HTML CSS and React JS.",
+    "image": "e-commerce",
+    "category": "React",
+    "links": {
+      "view": "https://nextbazar-firojahmed.vercel.app/product",
+      "code": "https://github.com/firojahmed1313/NEXTBAZAR"
+    }
+  }
+]

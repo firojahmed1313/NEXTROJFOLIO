@@ -21,6 +21,11 @@ const navItems = [
     icon: "game-icons:cut-diamond"
   },
   {
+    path: "/cartificate",
+    name: "Cartificate",
+    icon: "icons8:diploma-1"
+  },
+  {
     path: "/projects",
     name: "Projects",
     icon: "akar-icons:airplay-video"

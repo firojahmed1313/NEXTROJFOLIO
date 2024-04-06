@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <div className="bg-black pt-20 pb-10">
           <div className="containe h-full flex m-auto w-[90%]">
-            <div className=" rounded-2xl w-1/4 m-1 bg-stone-800 lg:mr-4">
+            <div className=" rounded-2xl w-1/4 m-1 bg-stone-800 lg:mr-4 h-fit">
               <NavberProfile />
             </div>
             <div className=" w-3/4 m-1 bg-stone-800 rounded-2xl">

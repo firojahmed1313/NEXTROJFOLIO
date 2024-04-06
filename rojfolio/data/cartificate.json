@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Internship",
+        "image": "./cartificate/internship.jpg"
+    },
+    {
+        "name": "C++",
+        "image": "./cartificate/c++.jpg"
+    },
+    {
+        "name": "Python",
+        "image": "./cartificate/python.jpg"
+    },
+    {
+        "name": "ReactJs",
+        "image": "./cartificate/reactjs.jpg"
+    },
+    {
+        "name": "JavaScript",
+        "image": "./cartificate/javascript.jpg"
+    },
+    {
+        "name": "Sql",
+        "image": "./cartificate/sql.jpg"
+    },
+    {
+        "name": "HTML5",
+        "image": "./cartificate/htmlcss.jpg"
+    },
+    {
+        "name": "PHP",
+        "image": "./cartificate/PHP_with_MySql.jpg"
+    },
+    {
+        "name": "Wordpress",
+        "image": "./cartificate/Wordpress.jpg"
+    },
+    {
+        "name": "CSS3",
+        "image": "./cartificate/htmlcss.jpg"
+    },
+    {
+        "name": "OOPS",
+        "image": "./cartificate/oops.jpg"
+    },
+    
+    {
+        "name": "Bootstrap",
+        "image": "./cartificate/bootstrap.jpg"
+    },
+    
+    {
+        "name": "Time Managment",
+        "image": "./cartificate/tm.jpg"
+    }
+
+    
+]
