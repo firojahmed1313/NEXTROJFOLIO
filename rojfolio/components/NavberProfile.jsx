@@ -69,7 +69,7 @@ const NavberProfile = () => {
             <div className="flex flex-col w-[80%] ">
               <p className="text-yellow-200">Birthday</p>
 
-              <time datetime="">May 30, 2000</time>
+              <time dateTime="">May 30, 2000</time>
             </div>
 
           </li>

@@ -14,22 +14,23 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="containe h-auto flex mt-20 m-auto w-[90%]">
-          <div className="border rounded-2xl w-1/4 m-1 bg-stone-800  ">
-            <NavberProfile />
-          </div>
-          <div className="border border-black w-3/4 m-1">
-            <div className="flex flex-col align-middle justify-center border border-green-900 items-end">
-              <div className=" h-auto mt-5 items-center ">
-                <Navber />
-              </div>
-              <div className="border border-gray-800 h-[70vh] mt-5 w-full ">
-                {children}
+        <div className="bg-black pt-20 pb-10">
+          <div className="containe h-full flex m-auto w-[90%]">
+            <div className=" rounded-2xl w-1/4 m-1 bg-stone-800 lg:mr-4">
+              <NavberProfile />
+            </div>
+            <div className=" w-3/4 m-1 bg-stone-800 rounded-2xl">
+              <div className="flex flex-col align-middle justify-center items-end">
+                <div className=" h-auto mt-5 items-center mr-4">
+                  <Navber />
+                </div>
+                <div className=" h-full mt-5 w-full text-white  ">
+                  {children}
+                </div>
               </div>
             </div>
           </div>
         </div>
-
       </body>
     </html>
   );
