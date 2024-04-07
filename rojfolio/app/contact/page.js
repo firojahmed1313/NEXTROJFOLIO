@@ -1,78 +1,54 @@
 import React from 'react'
-
+import emailqr from "@/public/qr-code email.png"
+import Image from 'next/image'
 const page = () => {
   return (
-    <article class="contact " id="contact" data-page="contact">
-          <div class="max-width">
-            <header>
-              <h2 class="h2 article-title">Contact me</h2>
-            </header>
-              <div class="contact-content">
-                  <div class="column left">
-                      <div class="text">Get in Touch</div>
-                      <p>I am MD Firoj Ahmed, a passionate front-end developer with a strong foundation in CSE.I acquired a deep understanding of various programming languages, algorithms, data structures. Throughout my academic journey, I consistently demonstrated a strong commitment to learning and excelled in front-end development courses.</p>
-                      <div class="qr">
-                  <div class="icons ">
-                    <div class="row">
-                      <i class="fas fa-user"></i>
-                      <div class="info">
-                        <div class="head">Name</div>
-                        <div class="sub-title">MD FIROJ AHMED</div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <i class="fas fa-map-marker-alt"></i>
-                      <div class="info">
-                        <div class="head">Address</div>
-                        <div class="sub-title">Newtown,West Bengal,700157</div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <i class="fas fa-envelope"></i>
-                      <div class="info">
-                        <div class="head">Email</div>
-                        <div class="sub-title"> <a href="mailto:firozahmed3052000@gmail.com" class="contact-link sub-title">firozahmed3052000@gmail.com</a></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="qrcode">
-                    <h2 class="blue">Or Scan QR Code</h2>
-                    <img 
-                    src="./image/qr-code-email.png"
-                    alt="Email QR"
-                    width="80%"
-                    
-                  />
-                    
-                    
-                  </div>
-                </div>
-                  </div>
-                  <div class="column right">
-                      <div class="text">Message me</div>
-                      <form action="#">
-                          <div class="fields">
-                              <div class="field name">
-                                  <input type="text" placeholder="Name" required/>
-                              </div>
-                              <div class="field email">
-                                  <input type="email" placeholder="Email" required/>
-                              </div>
-                          </div>
-                          <div class="field">
-                              <input type="text" placeholder="Subject" required/>
-                          </div>
-                          <div class="field textarea">
-                              <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
-                          </div>
-                          <div class="button-area">
-                              <button type="submit">Send message</button>
-                          </div>
-                      </form>
-                  </div>
-              </div>
+    <section className="text-gray-600 body-font relative">
+      <div className="mx-[1%] w-[98%] bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-3">
+        <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md ">
+          <div className="lg:w-1/2 px-6">
+            <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
+            <p className="mt-1">Vill+Post=Ghuni,P.S.=Newtown,
+              Dist=North 24 pgs,
+              West Bengal,pincode-700157</p>
           </div>
-        </article>
+          <div className="lg:w-1/2 px-4 mt-4 lg:mt-0">
+            <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
+            <a className="text-blue-500 leading-relaxed" href="mailto:firozahmed3052000@gmail.com">firozahmed3052000@gmail.com</a>
+            <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
+            <a className="leading-relaxed text-blue-700" href="tel:9830340650">9830340650</a>
+          </div>
+        </div>
+      </div>
+      <div className="container px-3 py-20 mx-auto flex sm:flex-nowrap flex-wrap">
+        <div className="lg:w-3/5 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-3 flex items-end justify-start relative">
+        <Image className='rounded-4xl' src={emailqr} alt="email qr" width={"80%"} />
+        </div>
+        <div className="lg:w-2/5 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 px-6 mt-8 md:mt-0 rounded-lg">
+          <h2 className="text-gray-900 text-2xl mb-1 font-medium title-font">Message me</h2>
+          <div className="relative mb-4">
+            <label htmlFor="name" className="leading-7 text-sm text-gray-600">Name</label>
+            <input type="text" id="name" name="name" className="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+          </div>
+          <div className="relative mb-4">
+            <label htmlFor="email" className="leading-7 text-sm text-gray-600">Email</label>
+            <input type="email" id="email" name="email" className="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+          </div>
+          <div className="relative mb-4">
+            <label htmlFor="subject" className="leading-7 text-sm text-gray-600">Subject</label>
+            <input type="text" id="subject" name="subject" className="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+          </div>
+          <div className="relative mb-4">
+            <label htmlFor="message" className="leading-7 text-sm text-gray-600">Message</label>
+            <textarea id="message" name="message" className="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+          </div>
+          <button className="text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">Button</button>
+        </div>
+
+
+
+      </div>
+    </section>
   )
 }
 

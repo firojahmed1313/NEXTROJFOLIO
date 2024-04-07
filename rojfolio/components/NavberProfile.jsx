@@ -1,7 +1,7 @@
 "use client"
 
 import React from 'react'
-import profilePic from "@/public/profile-pic (5).png"
+import profilePic from "@/public/profile-pic (1).png"
 import Image from 'next/image'
 import { Icon } from '@iconify/react';
 
@@ -33,9 +33,9 @@ const NavberProfile = () => {
 
         <ul className="m-2">
 
-          <li className="flex justify-around w-full align-middle mb-3">
+          <li className="flex justify-around w-full align-middle mb-3 ">
 
-            <div className="borde rounded-xl  shadow-md shadow-slate-600 p-3 mt-1 mr-2">
+            <div className="rounded-xl  shadow-md shadow-slate-600 p-3 mt-1 mr-2">
               <Icon icon="nimbus:mail" style={{ color: "#FFCC00" }} className="items-center h-7 w-7"/>
             </div>
 
