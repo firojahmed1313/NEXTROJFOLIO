@@ -1,0 +1,62 @@
+[
+    {
+        "title": "Education",
+        "icon": "material-symbols-light:school-outline",
+        "data": [
+            {
+                "name": "Kalyani Government Engineering College",
+                "locaton": "Kalyani, West Bengal 741235",
+                "timeline": "Present -2020",
+                "desc": "B.Tech in Computer Science And Engineeing    Cgpa: 9.14"
+                
+            },
+            {
+                "name": "BAXARAH HIGH SCHOOL(H.S.)",
+                "locaton": "Howrah, West Bengal 711110",
+                "timeline": "2016 — 2018",
+                "desc": "Higher Secondary Percentage : 77.7 (sub- Physics, Chemistry, Maths, and Biology)"
+
+            },
+            {
+                "name": "CHALTAKHALI RAI GUNAKAR BHARAT CHANDRA INSTITUTION",
+                "locaton": "Howrah, West Bengal 711410",
+                "timeline": "2014 — 2016",
+                "desc": "Secondary  percentage : 83.4"
+
+            }
+        ]
+    },
+    {
+        "title": "Experience",
+        "icon": "material-symbols-light:desktop-windows-outline-rounded",
+        "data": [
+            {
+                "name": "Summer Intern",
+                "locaton": "Celebal Technologies Jaipur, Rajasthan 302017"
+                ,
+                "timeline": "June 2023 - Aug 2023",
+                "desc": "Developed a high-performance frontend website for Movie lovers. Worked with Reactjs ,html , css,bootstrap,Reduxsaga. implemented Redux for state management, which allowed me to efficiently handle data flow and manage the application’s global state."
+            }
+        ]
+    },
+    {
+        "title": "Training",
+        "icon": "ic:round-business",
+        "data": [
+            {
+                "name": "Industrial Training And Internship",
+                "locaton": "Ardent Computech Pvt Ltd  Online",
+                "timeline": "Aug 2022 - Sep 2022",
+                "desc": "Developed a hotel website project from zero to deployment. Utilized responsive design to ensure compatibility across all devices Tools: Html, Css , JavaScript and Bootstrap. Coordinated with a team of students to design and deployment."
+            }
+        ]
+    }
+
+
+
+
+
+
+    
+    
+]
