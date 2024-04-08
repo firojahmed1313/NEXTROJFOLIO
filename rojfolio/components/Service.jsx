@@ -25,7 +25,7 @@ const Service = () => {
     return (
         <section className="service">
 
-            <h3 className="font-bold text-3xl">What i'm doing</h3>
+            <h3 className="font-bold text-3xl">What i&apos;m doing</h3>
 
             <ul className="flex flex-wrap pb-3 ">
 

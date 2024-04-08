@@ -1,9 +1,11 @@
 [
     {
+        "id": 1,
         "title": "Education",
         "icon": "material-symbols-light:school-outline",
         "data": [
             {
+                "id": 1,
                 "name": "Kalyani Government Engineering College",
                 "locaton": "Kalyani, West Bengal 741235",
                 "timeline": "Present -2020",
@@ -11,6 +13,7 @@
                 
             },
             {
+                "id": 2,
                 "name": "BAXARAH HIGH SCHOOL(H.S.)",
                 "locaton": "Howrah, West Bengal 711110",
                 "timeline": "2016 — 2018",
@@ -18,6 +21,7 @@
 
             },
             {
+                "id": 3,
                 "name": "CHALTAKHALI RAI GUNAKAR BHARAT CHANDRA INSTITUTION",
                 "locaton": "Howrah, West Bengal 711410",
                 "timeline": "2014 — 2016",
@@ -27,23 +31,26 @@
         ]
     },
     {
+        "id": 2,
         "title": "Experience",
         "icon": "material-symbols-light:desktop-windows-outline-rounded",
         "data": [
             {
+                "id": 1,
                 "name": "Summer Intern",
-                "locaton": "Celebal Technologies Jaipur, Rajasthan 302017"
-                ,
+                "locaton": "Celebal Technologies Jaipur, Rajasthan 302017",
                 "timeline": "June 2023 - Aug 2023",
                 "desc": "Developed a high-performance frontend website for Movie lovers. Worked with Reactjs ,html , css,bootstrap,Reduxsaga. implemented Redux for state management, which allowed me to efficiently handle data flow and manage the application’s global state."
             }
         ]
     },
     {
+        "id": 3,
         "title": "Training",
         "icon": "ic:round-business",
         "data": [
             {
+                "id": 1,
                 "name": "Industrial Training And Internship",
                 "locaton": "Ardent Computech Pvt Ltd  Online",
                 "timeline": "Aug 2022 - Sep 2022",
