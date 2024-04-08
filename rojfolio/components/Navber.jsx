@@ -21,8 +21,8 @@ const navItems = [
     icon: "game-icons:cut-diamond"
   },
   {
-    path: "/cartificate",
-    name: "Cartificate",
+    path: "/certificate",
+    name: "Certificate",
     icon: "icons8:diploma-1"
   },
   {

@@ -9,7 +9,7 @@ const NavberProfile = () => {
   return (
     <aside className="text-white" >
 
-      <div className="m-auto w-[90%] mt-5 rounded-3xl flex flex-col align-middle justify-center items-center">
+      <div className="m-auto w-[90%] mt-5 rounded-3xl flex flex-col align-middle justify-center items-center sm:w-[50%] lg:w-[90%] ">
 
         <div className="rounded-3xl">
           <Image className='rounded-3xl' src={profilePic} alt="MD FIROJ AHMED" width={"80%"} />
@@ -27,7 +27,7 @@ const NavberProfile = () => {
 
       </div>
 
-      <div className="m-3">
+      <div className="m-3 ">
 
         <div className="border border-y-black"></div>
 
@@ -35,21 +35,21 @@ const NavberProfile = () => {
 
           <li className="flex justify-around w-full align-middle mb-3 ">
 
-            <div className="rounded-xl  shadow-md shadow-slate-600 p-3 mt-1 mr-2">
-              <Icon icon="nimbus:mail" style={{ color: "#FFCC00" }} className="items-center h-7 w-7"/>
+            <div className="rounded-xl  shadow-md shadow-slate-600 p-3 mt-1 mr-2 hover:bg-red-500">
+              <Icon icon="nimbus:mail" style={{ color: "#FFCC00" }} className="items-center h-7 w-7 "/>
             </div>
 
-            <div className="flex flex-col w-[80%] ">
+            <div className="flex flex-col w-[80%] overflow-x-hidden">
               <p className="text-yellow-200">Email</p>
 
-              <a href="mailto:firozahmed3052000@gmail.com" className="">firozahmed3052000...</a>
+              <a href="mailto:firozahmed3052000@gmail.com" className="">firozahmed3052000@gmail.com</a>
             </div>
 
           </li>
 
           <li className="flex justify-around w-full align-middle  mb-3">
 
-            <div className="borde rounded-xl  shadow-md shadow-slate-600 p-3  mt-1 mr-2">
+            <div className="borde rounded-xl  shadow-md shadow-slate-600 p-3  mt-1 mr-2 hover:bg-red-500">
               <Icon icon="material-symbols-light:smartphone-outline" style={{ color: "#FFCC00" }} className="items-center h-7 w-7"/>
             </div>
 
@@ -62,7 +62,7 @@ const NavberProfile = () => {
 
           <li className="flex justify-around w-full align-middle  mb-3">
 
-            <div className="borde rounded-xl  shadow-md shadow-slate-600 p-3  mt-1 mr-2">
+            <div className="borde rounded-xl  shadow-md shadow-slate-600 p-3  mt-1 mr-2 hover:bg-red-500">
               <Icon icon="material-symbols-light:calendar-month-rounded" style={{ color: "#FFCC00" }} className="items-center h-7 w-7"/>
             </div>
 
@@ -76,7 +76,7 @@ const NavberProfile = () => {
 
           <li className="flex justify-around w-full align-middle mb-3">
 
-            <div className="borde rounded-xl  shadow-md shadow-slate-600 p-3 h-max  mt-1 mr-2 align-middle">
+            <div className="borde rounded-xl  shadow-md shadow-slate-600 p-3 h-max  mt-1 mr-2 align-middle hover:bg-red-500">
               <Icon icon="material-symbols-light:location-on-rounded" style={{ color: "#FFCC00" }} className="items-center h-7 w-7" />
             </div>
 
@@ -97,19 +97,19 @@ const NavberProfile = () => {
 
         <ul className="flex align-middle justify-evenly">
 
-          <li className="borde rounded-xl  shadow-md shadow-slate-600 p-3 mt-1">
+          <li className="borde rounded-xl  shadow-md shadow-slate-600 p-3 mt-1 hover:bg-red-500">
             <a href="https://www.linkedin.com/in/md-firoj-ahmed-8209a01bb/" className="" target="_blank">
               <Icon icon="entypo-social:linkedin-with-circle" style={{ color: "#2935db" }} className="h-10 w-10" />
             </a>
           </li>
 
-          <li className="borde rounded-xl  shadow-md shadow-slate-600 p-3 mt-1">
+          <li className="borde rounded-xl  shadow-md shadow-slate-600 p-3 mt-1 hover:bg-red-500">
             <a href="https://github.com/firojahmed1313" className="" target="_blank">
             <Icon icon="entypo-social:github"  style={{color: "#2935db"}} className="h-10 w-10" />
             </a>
           </li>
 
-          <li className="borde rounded-xl  shadow-md shadow-slate-600 p-3 mt-1">
+          <li className="borde rounded-xl  shadow-md shadow-slate-600 p-3 mt-1 hover:bg-red-500">
             <a href="https://auth.geeksforgeeks.org/user/firozahmed3052000" className="" target="_blank">
             <Icon icon="material-symbols:link-rounded"  style={{color: "#2935db"}} className="h-10 w-10" />
             </a>

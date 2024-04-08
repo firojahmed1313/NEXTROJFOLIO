@@ -32,7 +32,7 @@ const Service = () => {
                 {
                     serviceData.map((service, index) => {
                         return (
-                            <li className=" w-[45%] m-auto mt-3 p-5 flex align-middle justify-center rounded-xl bg-zinc-800 shadow-xl shadow-[hsla(0, 0%, 0%, 0.25)] " key={index} >
+                            <li className=" w-[96%] lg:w-[45%] m-auto mt-3 p-5 flex align-middle justify-center rounded-xl bg-zinc-800 shadow-xl shadow-[hsla(0, 0%, 0%, 0.25)] " key={index} >
 
                                 <div className="service-icon-box mr-3  ">
                                     <Image src={service.icon} alt={service.title} width={"70"} />
