@@ -2,7 +2,7 @@ import React from 'react'
 //top-[10%] md:group-hover:top-[27%] lg:group-hover:top-[45%]
 const extra = () => {
     return (
-        <>
+        {/*<>
             <div>
                 <li className="timeline-item before:absolute before:top-[-25px] before:left-[-30px] before:w-[1px] before:h-[calc(100% + 50px)] before:bg-slate-300 before:content-* ">
 
@@ -105,7 +105,7 @@ const extra = () => {
 
             </section>
             
-        </>
+    </>*/}
 
     )
 }
