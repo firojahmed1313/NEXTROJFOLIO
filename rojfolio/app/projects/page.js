@@ -16,13 +16,13 @@ const page = () => {
             <>
               <div className="w-[96%] md:w-[48%] m-auto mt-3 mb-3 rounded-xl  overflow-hidden relative group " key={project.name} >
                 <Image className='rounded-2xl bg-cover' src={profilePic} alt={project.name} width={"70%"} height={"100%"}/>
-                <div className="m-auto flex flex-col left-0 w-[100%] h-full absolute cursor-pointer  rounded-xl top-[70%] group-hover:bottom-0">
-                  <div className="w-full pl-3 bg-yellow-300 text-black text-xl lg:text-2xl cursor-pointer font-bold py-1 lg:py-2">
+                <div className="m-auto flex flex-col left-0 w-[100%] h-full absolute cursor-pointer  rounded-xl top-[70%] group-hover:top-[20%] group-hover:sm:top-[70%]  group-hover:md:top-[30%] group-hover:lg:top-[27%] ">
+                  <div className="w-full pl-3 bg-yellow-300 text-black text-lg lg:text-2xl cursor-pointer font-bold py-1 lg:py-2">
                     <h3>{project.name}</h3>
                   </div>
                   <div className=" bg-white text-black h-[200px] mb-5 pb-6">
-                    <p className='text-lg font-normal mb-1 p-1'>{project.desc}</p>
-                    <div className=" flex justify-center lg:justify-between items-center w-[60%] m-auto mb-5 mt-1">
+                    <p className='text-md md:text-lg font-normal mb-1 p-1'>{project.desc}</p>
+                    <div className=" flex justify-center lg:justify-between items-center w-[60%] m-auto mb-5 mt-1 md:mt-3">
                       <a href={project.links.view} className=" bg-black text-white flex justify-between items-center p-2 pl-4 pr-4 rounded-xl hover:bg-blue-800" target="_blank"><Icon icon="ic:baseline-remove-red-eye"  style={{color: "white", marginRight:"10px"}} /> View</a>
                       <a href={project.links.code} className=" bg-black text-white flex justify-between items-center p-2 pl-4 pr-4 rounded-xl hover:bg-blue-800" target="_blank"> <Icon icon="iconoir:code"  style={{color: "white", marginRight:"10px"}} /> Code</a>
                     </div>

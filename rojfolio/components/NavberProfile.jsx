@@ -43,13 +43,10 @@ const NavberProfile = () => {
         <button className=" absolute h-fit top-[23px] right-[4.5%] flex lg:invisible" onClick={() => setOpen(!open)}>
           {
             (open) ?
-              <div className=''>
-                <Icon icon="ooui:close" style={{ color: "white" }} className="h-7 w-7 m-3 mx-3" />
+              <Icon icon="ooui:close" style={{ color: "white" }} className="h-7 w-7 m-3 mx-3" />
+              :
+              <Icon icon="ic:round-menu" style={{ color: "white" }} className="h-9 w-7 m-3 mx-3" />
 
-              </div>
-              : <>
-                <Icon icon="ic:round-menu" style={{ color: "white" }} className="h-7 w-7 m-3 mx-3" />
-              </>
           }
 
 

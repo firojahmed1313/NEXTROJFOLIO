@@ -21,7 +21,7 @@ const page = () => {
               <h3 className="text-yellow-200 text-xl font-bold">{resume.title} </h3>
             </div>
 
-            <ol className="m-12">
+            <ol className="m-12 z-20">
 
 
               {(resume.data).map((data) => {
