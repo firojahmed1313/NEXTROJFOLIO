@@ -5,7 +5,7 @@ import Service from "@/components/Service";
 export default function Home() {
   return (
     <>
-      <article className="about w-[90%] m-auto " >
+      <article className="about w-[90%] m-auto" >
         <section className="about-text text-base font-normal mb-5">
           <p className="mb-5 mt-5">
             I am MD Firoj Ahmed, a passionate front-end developer with a strong foundation in Computer Science & Engineering. I completed my B.Tech degree from Kalyani Government Engineering College, where I gained extensive knowledge and practical skills in the field of web development.

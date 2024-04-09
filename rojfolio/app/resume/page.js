@@ -7,6 +7,7 @@ import resumeData from "@/data/resume.json";
 const page = () => {
   //console.log(resumeData)
   return (
+    
     <article className="ml-3 ">
 
       {resumeData?.map((resume) => {
@@ -24,7 +25,7 @@ const page = () => {
 
 
               {(resume.data).map((data) => {
-                console.log(data);
+                //console.log(data);
                 return (
                   <li className="mb-6 relative after:content-* after:absolute after:top-[7px] after:left-[-30px] after:w-[9px] after:h-[9px] 
                 after:rounded-full after:bg-[#FFCC00] after:shadow-[0_0_0_4px] after:shadow-neutral-400

@@ -3,9 +3,10 @@ import emailqr from "@/public/qr-code email.png"
 import Image from 'next/image'
 const page = () => {
   return (
-    <section className="text-gray-600 body-font relative rounded-lg">
+    
+    <section className="text-gray-600 body-font rounded-lg">
       <div className="mx-[2%] w-[96%] bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-1">
-        <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md mx-1">
+        <div className="bg-white flex flex-wrap py-6 rounded shadow-md mx-1">
           <div className="lg:w-1/2 px-6">
             <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
             <p className="mt-1">Vill+Post=Ghuni,P.S.=Newtown,

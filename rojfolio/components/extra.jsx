@@ -3,6 +3,11 @@ import React from 'react'
 const extra = () => {
     return (
         {/*<>
+        <Icon icon="ooui:close"  style={{color: white}} />
+        <Icon icon="ic:round-menu"  style={{color: white}} />
+            <div className="border border-red-800 right-0 mt-3">
+        <Icon icon="mdi:arrow-up-box" style={{ color: "#FFCC00" }} className="h-7 w-7 mx-auto " />
+      </div>
             <div>
                 <li className="timeline-item before:absolute before:top-[-25px] before:left-[-30px] before:w-[1px] before:h-[calc(100% + 50px)] before:bg-slate-300 before:content-* ">
 

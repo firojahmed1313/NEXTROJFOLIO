@@ -15,16 +15,16 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <div className="bg-black pt-20 pb-10">
-          <div className="containe h-full flex flex-col lg:flex-row m-auto w-[90%]">
+          <div className="containe h-full flex flex-col lg:flex-row mx-[5%] w-[90%]">
             <div className=" rounded-2xl w-full lg:w-1/4 m-1 bg-stone-800 lg:mr-4 h-fit">
               <NavberProfile />
             </div>
             <div className=" w-full lg:w-3/4 m-1 bg-stone-800 rounded-2xl">
               <div className="flex flex-col align-middle justify-center items-end">
-                <div className=" h-auto mt-5 items-center mr-4">
+                <div className="h-1 mt-5 items-center mr-4 max-w-[100%] invisible lg:visible  lg:h-auto ">
                   <Navber />
                 </div>
-                <div className=" h-full mt-5 w-full text-white  ">
+                <div className=" h-full mt-0 lg:mt-5 w-full text-white  ">
                   {children}
                 </div>
               </div>
