@@ -1,57 +1,57 @@
 [
     {
         "name": "Internship",
-        "image": "./cartificate/internship.jpg"
+        "image": "https://res.cloudinary.com/dvmhpcpil/image/upload/v1712722293/rojfolio/certificate/wcg5hd3z1nlq9zpregdn.jpg"
     },
     {
         "name": "C++",
-        "image": "./cartificate/c++.jpg"
+        "image": "https://res.cloudinary.com/dvmhpcpil/image/upload/v1712722293/rojfolio/certificate/qijgvs1acbsbdai5mdfe.jpg"
     },
     {
         "name": "Python",
-        "image": "./cartificate/python.jpg"
+        "image": "https://res.cloudinary.com/dvmhpcpil/image/upload/v1712722293/rojfolio/certificate/orf5vnolgitiu7jc6int.jpg"
     },
     {
         "name": "ReactJs",
-        "image": "./cartificate/reactjs.jpg"
+        "image": "https://res.cloudinary.com/dvmhpcpil/image/upload/v1712722293/rojfolio/certificate/wz6t1oaagvjyak3eiurk.jpg"
+    },
+    {
+        "name": "MERN",
+        "image": "https://res.cloudinary.com/dvmhpcpil/image/upload/v1712722293/rojfolio/certificate/skcsu1ude7xfdcyaaqhv.jpg"
     },
     {
         "name": "JavaScript",
-        "image": "./cartificate/javascript.jpg"
+        "image": "https://res.cloudinary.com/dvmhpcpil/image/upload/v1712722293/rojfolio/certificate/mwg85qwfulzqno2kkpdt.jpg"
     },
     {
         "name": "Sql",
-        "image": "./cartificate/sql.jpg"
+        "image": "https://res.cloudinary.com/dvmhpcpil/image/upload/v1712722293/rojfolio/certificate/ulx2ciinbcyxevbcmhac.jpg"
     },
     {
-        "name": "HTML5",
-        "image": "./cartificate/htmlcss.jpg"
+        "name": "HTML5 & CSS3",
+        "image": "https://res.cloudinary.com/dvmhpcpil/image/upload/v1712722293/rojfolio/certificate/amgupsuctqf4zw1gtv1v.jpg"
     },
     {
         "name": "PHP",
-        "image": "./cartificate/PHP_with_MySql.jpg"
+        "image": "https://res.cloudinary.com/dvmhpcpil/image/upload/v1712722293/rojfolio/certificate/ffcar8fast8io9zqlgj1.jpg"
     },
     {
         "name": "Wordpress",
-        "image": "./cartificate/Wordpress.jpg"
-    },
-    {
-        "name": "CSS3",
-        "image": "./cartificate/htmlcss.jpg"
+        "image": "https://res.cloudinary.com/dvmhpcpil/image/upload/v1712722293/rojfolio/certificate/sicwenjcvzqgfc0ggr8k.jpg"
     },
     {
         "name": "OOPS",
-        "image": "./cartificate/oops.jpg"
+        "image": "https://res.cloudinary.com/dvmhpcpil/image/upload/v1712722293/rojfolio/certificate/by4brkk55qf4dstsh0i0.jpg"
     },
     
     {
         "name": "Bootstrap",
-        "image": "./cartificate/bootstrap.jpg"
+        "image": "https://res.cloudinary.com/dvmhpcpil/image/upload/v1712722293/rojfolio/certificate/judxkaa1pvqw80tox0yh.jpg"
     },
     
     {
         "name": "Time Managment",
-        "image": "./cartificate/tm.jpg"
+        "image": "https://res.cloudinary.com/dvmhpcpil/image/upload/v1712722293/rojfolio/certificate/ffcar8fast8io9zqlgj1.jpg"
     }
 
     
