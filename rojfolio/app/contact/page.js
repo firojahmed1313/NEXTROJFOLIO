@@ -5,26 +5,10 @@ const page = () => {
   return (
     
     <section className="text-gray-600 body-font rounded-lg">
-      <div className="mx-[2%] w-[96%] bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-1">
-        <div className="bg-white flex flex-wrap py-6 rounded shadow-md mx-1">
-          <div className="lg:w-1/2 px-6">
-            <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
-            <p className="mt-1">Vill+Post=Ghuni,P.S.=Newtown,
-              Dist=North 24 pgs,
-              West Bengal,pincode-700157</p>
-          </div>
-          <div className="lg:w-1/2 px-4 mt-4 lg:mt-0">
-            <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
-            <a className="text-blue-500 leading-relaxed" href="mailto:firozahmed3052000@gmail.com">firozahmed3052000@gmail.com</a>
-            <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
-            <a className="leading-relaxed text-blue-700" href="tel:9830340650">9830340650</a>
-          </div>
-        </div>
-      </div>
-      <div className="container px-1 py-20 mx-auto flex lg:flex-nowrap flex-wrap ">
+      <div className="container px-1 py-20 mx-auto flex md:flex-nowrap flex-wrap ">
         <div className="lg:w-2/4 sm:w-[38%] bg-gray-300 rounded-lg sm:mr-1 p-3 flex flex-col items-center justify-start relative h-full">
           <h2 className="text-gray-900 text-2xl mb-3 font-medium title-font  ">Scan QR for send Message</h2>
-          <Image className='rounded-4xl' src={emailqr} alt="email qr" width={"80%"} />
+          <Image className='rounded-4xl' src={emailqr} alt="email qr" width={500} height={500} />
         </div>
         <div className="lg:w-2/4 sm:w-[60%] bg-white flex flex-col md:ml-auto w-full py-8 px-6 mt-8 md:mt-0 rounded-lg ">
           <h2 className="text-gray-900 text-2xl mb-1 font-medium title-font">Message me</h2>

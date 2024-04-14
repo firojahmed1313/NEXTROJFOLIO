@@ -14,8 +14,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="bg-black pt-20 pb-10">
-          <div className="containe h-full flex flex-col lg:flex-row mx-[5%] w-[90%]">
+        <div className="bg-black pt-20 pb-10 overflow-hidden m-0 mr-0">
+          <div className="containe h-full flex flex-col lg:flex-row mx-[5%] w-[90%] overflow-hidden">
             <div className=" rounded-2xl w-full lg:w-1/4 m-1 bg-stone-800 lg:mr-4 h-fit">
               <NavberProfile />
             </div>
