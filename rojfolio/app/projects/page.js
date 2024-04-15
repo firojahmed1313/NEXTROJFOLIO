@@ -15,8 +15,8 @@ const page = () => {
           return (
             <>
               <div className="w-[96%] md:w-[48%] m-auto mt-3 mb-3 rounded-xl  overflow-hidden relative group " key={project.name} >
-                <Image className='rounded-2xl bg-cover' src={project.image} alt={project.name} width={700} height={700} />
-                <div className="m-auto flex flex-col left-0 w-[100%] h-full absolute cursor-pointer  rounded-xl top-[70%] group-hover:top-[20%] group-hover:sm:top-[70%]  group-hover:md:top-[30%] group-hover:lg:top-[27%] ">
+                <Image className='rounded-2xl bg-cover h-[400px] ' src={project.image} alt={project.name} width={700} height={400} />
+                <div className="m-auto flex flex-col left-0 w-[100%] h-full absolute cursor-pointer  rounded-xl top-[65%] group-hover:top-[43%] group-hover:sm:top-[65%] group-hover:md:top-[41%] group-hover:lg:top-[38%] ">
                   <div className="w-full pl-3 bg-yellow-300 text-black text-lg lg:text-2xl cursor-pointer font-bold py-1 lg:py-2">
                     <h3>{project.name}</h3>
                   </div>
