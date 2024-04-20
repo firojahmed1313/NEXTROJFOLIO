@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const page = () => {
   return (
-    <section className=" bg-stone-700 m-4 rounded-lg flex flex-wrap p-4">
+    <section className=" bg-stone-700 m-4 rounded-lg flex flex-wrap p-4 h-screen overflow-scroll overflow-x-auto scroll-smooth scrollbar">
 
       {
         cartificates?.map((cartificate) => {

@@ -11,3 +11,15 @@
         src: url(/fonts/Roboto.woff2) format('woff2');
     }
 }
+
+@layer utilities {
+    .scrollbar::-webkit-scrollbar-track {
+        background-color: rgb(239 68 68);
+        border-radius: 15px;
+    }
+
+    .scrollbar::-webkit-scrollbar-thumb {
+        background-color: #FFCC00;
+        border-radius: 15px;
+    }
+}

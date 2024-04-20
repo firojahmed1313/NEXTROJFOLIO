@@ -5,7 +5,7 @@ import Image from 'next/image'
 const page = () => {
   //console.log(skills)
   return (
-    <section className=" bg-stone-700 m-4 rounded-lg flex flex-wrap">
+    <section className=" bg-stone-700 m-4 rounded-lg flex flex-wrap h-screen overflow-scroll overflow-x-auto scroll-smooth scrollbar">
 
       {
         skills?.map((skill) => {
