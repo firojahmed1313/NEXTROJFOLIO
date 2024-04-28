@@ -1,7 +1,8 @@
 "use client"
 
 import React, { useState } from 'react'
-import profilePic from "@/public/profile-pic (1).png"
+import profilePic from "@/public/profilepicgif.gif"
+//import profilePic from "@/public/profile-pic (1).png"
 import Image from 'next/image'
 import { Icon } from '@iconify/react';
 import Hamberger from './Hamberger';
