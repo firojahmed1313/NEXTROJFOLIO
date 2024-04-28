@@ -10,14 +10,14 @@ import Hamberger from './Hamberger';
 const NavberProfile = () => {
   const [sort, setSort] = useState(false);
   const [open, setOpen] = useState(false);
-  console.log(sort);
+  //console.log(sort);
   return (
     <aside className={`text-white ${sort ? "h-60" : "h-fit"} lg:h-fit overflow-hidden`} >
 
       <div className={`m-auto w-[90%] mt-5 rounded-3xl flex flex-col align-middle justify-center h-  items-center sm:w-[50%] lg:w-[90%] `}>
 
         <div className="rounded-3xl">
-          <Image className='rounded-3xl' src={profilePic} alt="MD FIROJ AHMED" width={"80%"} />
+          <Image className='rounded-[50%]' src={profilePic} alt="MD FIROJ AHMED" width={"70%"} />
         </div>
 
         <div className="mt-5">
