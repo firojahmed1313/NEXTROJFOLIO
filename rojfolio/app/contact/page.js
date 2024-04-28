@@ -18,11 +18,11 @@ const page = () => {
   };
   const submitEmail =async (e) => {
     e.preventDefault();
-    console.log(emailData);
+    //console.log(emailData);
     try {
       const url="/api/email";
       const data=await axios.post(url,emailData);
-      console.log(data);
+      //console.log(data);
     } catch (error) {
       console.warn(error);
     }

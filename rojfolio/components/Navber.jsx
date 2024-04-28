@@ -38,7 +38,7 @@ const navItems = [
 ];
 const Navber = (promts) => {
   let pathname = usePathname()
-  console.log(pathname);
+  //console.log(pathname);
   return (
     <nav className="border border-black rounded-xl bg-black flex align-middle justify-items-end h-full w-min">
       {
