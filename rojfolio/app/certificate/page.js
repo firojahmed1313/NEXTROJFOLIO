@@ -10,7 +10,7 @@ const page = () => {
       {
         cartificates?.map((cartificate) => {
           return (
-            <div className=" w-[98%] md:w-[48%] lg:w-[30%]  h-fit m-auto rounded-lg bg-neutral-800  hover:bg-neutral-900 flex flex-col items-center justify-center  pb-4 pt-4 mb-3" key={cartificate.name}>
+            <div className=" w-[98%] md:w-[48%] lg:w-[30%]  h-fit m-auto rounded-lg bg-neutral-800  hover:bg-neutral-900 flex flex-col items-center justify-center  pb-4 pt-4 mb-6 shadow-lg shadow-neutral-900" key={cartificate.name}>
               {//<img src={profilePic} alt={cartificate.name} className='w-20 mb-4'/>
               }
               <Image className='p-4 rounded-2xl mb-3' src={cartificate.image} alt={cartificate.name} width={700} height={700} />

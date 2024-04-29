@@ -10,7 +10,7 @@ const page = () => {
       {
         skills?.map((skill) => {
           return (
-            <div className=" w-[48%] lg:w-[30%] h-fit m-auto my-2 rounded-lg bg-neutral-800  hover:bg-neutral-900 flex flex-col items-center justify-center  pb-4 pt-4" key={skill.name}>
+            <div className=" w-[48%] lg:w-[30%] h-fit m-auto my-2 rounded-lg bg-neutral-800  hover:bg-neutral-900 flex flex-col items-center justify-center  pb-4 pt-4 shadow-lg shadow-neutral-900" key={skill.name}>
               <img src={skill.icon} alt="skill" className='w-20 mb-4'/>
               <span className="text-2xl font-bold text-center ">{skill.name}</span>
             </div>

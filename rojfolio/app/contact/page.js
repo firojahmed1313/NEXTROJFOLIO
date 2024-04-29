@@ -33,7 +33,7 @@ const page = () => {
       <div className="container px-1 py-20 mx-auto flex md:flex-nowrap flex-wrap ">
         <div className="lg:w-2/4 sm:w-[38%] bg-gray-300 rounded-lg sm:mr-1 p-3 flex flex-col items-center justify-start relative h-full">
           <h2 className="text-gray-900 text-2xl mb-3 font-medium title-font  ">Scan QR for send Message</h2>
-          <Image className='rounded-4xl' src={emailqr} alt="email qr" width={500} height={500} />
+          <Image className='shadow-lg shadow-neutral-900 mb-6 rounded-2xl' src={emailqr} alt="email qr" width={500} height={500} />
         </div>
         <div className="lg:w-2/4 sm:w-[60%] bg-white flex flex-col md:ml-auto w-full py-8 px-6 mt-8 md:mt-0 rounded-lg ">
           <h2 className="text-gray-900 text-2xl mb-1 font-medium title-font">Message me</h2>
