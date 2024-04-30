@@ -11,7 +11,7 @@ const initialData = {
   message: "",
 };
 const page = () => {
-  const [emailData,setEmail] =useState(initialData);
+  const [emailData,setEmail] = useState(initialData);
   const inputEvent = (e) => {
     const { name, value } = e.target;
     setEmail({ ...emailData, [name]: value });
