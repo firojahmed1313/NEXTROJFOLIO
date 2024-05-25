@@ -66,7 +66,7 @@ const NavberProfile = () => {
 
         <div className="border border-y-black"></div>
 
-        <ul className="m-2">
+        <ul className="m-2  rounded-2xl p-3">
 
           <li className="flex justify-around w-full align-middle mb-3 ">
 
@@ -77,7 +77,7 @@ const NavberProfile = () => {
             <div className="flex flex-col w-[80%] overflow-x-hidden">
               <p className="text-yellow-200">Email</p>
 
-              <a href="mailto:firozahmed3052000@gmail.com" className="">firozahmed3052000@gmail.com</a>
+              <a href="mailto:firozahmed3052000@gmail.com" className="" title="firozahmed3052000@gmail.com">{"firozahmed3052000@gmail.com".substring(0,20)}...</a>
             </div>
 
           </li>
@@ -90,7 +90,7 @@ const NavberProfile = () => {
 
             <div className="flex flex-col w-[80%] ">
               <p className="text-yellow-200">Phone</p>
-              <a href="tel:9830340650" className="">9830340650</a>
+              <a href="tel:9830340650" className=""title="9830340650">9830340650</a>
             </div>
 
           </li>
