@@ -35,7 +35,7 @@ const page = () => {
           <h2 className="text-gray-900 text-2xl mb-3 font-medium title-font  ">Scan QR for send Message</h2>
           <Image className='shadow-lg shadow-neutral-900 mb-6 rounded-2xl' src={emailqr} alt="email qr" width={500} height={500} />
         </div>
-        <div className="lg:w-2/4 sm:w-[60%] bg-white flex flex-col md:ml-auto w-full py-8 px-6 mt-8 md:mt-0 rounded-lg ">
+        <div className="lg:w-2/4 sm:w-[60%] bg-white flex flex-col md:ml-auto w-full py-8 px-6 mt-8 md:mt-0 rounded-lg">
           <h2 className="text-gray-900 text-2xl mb-1 font-medium title-font">Message me</h2>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-600">Name</label>

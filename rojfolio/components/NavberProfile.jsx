@@ -64,9 +64,9 @@ const NavberProfile = () => {
 
       <div className="m-3 ">
 
-        <div className="border border-y-black"></div>
+        <div className=""></div>
 
-        <ul className="m-2  rounded-2xl p-3">
+        <ul className="m-2  rounded-2xl p-3 shadow-[inset_-21px_21px_42px_#1c1917,inset_21px_-21px_42px_#302b2a] ">
 
           <li className="flex justify-around w-full align-middle mb-3 ">
 
