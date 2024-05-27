@@ -23,6 +23,7 @@ export default function Home() {
           <div className="text-white bg-red-600 p-2 w-fit rounded-lg font-bold hover:border hover:border-red-500 hover:bg-white hover:text-red-600">
 
             <a href="https://drive.google.com/file/d/1hyoXPm8M3kcaiiI_yn9W_E1TKuI1M8P3/view?usp=sharing" className=" text-base flex flex-row justify-center align-middle " target="_blank"><Icon icon="mage:inbox-download-fill" width="28" height="28"  style={{color:" #152bd1" ,marginRight:"7px"}}/>Download CV</a>
+            <a href="" className=" text-base flex flex-row justify-center align-middle " download><Icon icon="mage:inbox-download-fill" width="28" height="28"  style={{color:" #152bd1" ,marginRight:"7px"}}/>Download CV</a>
           </div>
         </section>
 
