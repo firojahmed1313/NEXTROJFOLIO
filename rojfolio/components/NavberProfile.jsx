@@ -6,6 +6,7 @@ import profilePic from "@/public/profilepicgif.gif"
 import Image from 'next/image'
 import { Icon } from '@iconify/react';
 import Hamberger from './Hamberger';
+import SocialLink from './SocialLink';
 
 const NavberProfile = () => {
   const [sort, setSort] = useState(false);
@@ -66,7 +67,7 @@ const NavberProfile = () => {
 
         <div className=""></div>
 
-        <ul className="m-2  rounded-2xl p-3 shadow-[inset_-21px_21px_42px_#1c1917,inset_21px_-21px_42px_#302b2a] ">
+        <ul className="m-2  rounded-2xl p-3 shadow-[inset_-21px_21px_42px_#1c1917,inset_21px_-21px_42px_#302b2a] mb-7 ">
 
           <li className="flex justify-around w-full align-middle mb-3 ">
 
@@ -129,8 +130,8 @@ const NavberProfile = () => {
 
         </ul>
 
-
-        <ul className="flex align-middle justify-evenly">
+        <SocialLink/>
+        {/* <ul className="flex align-middle justify-evenly">
 
           <li className="borde rounded-xl  shadow-md shadow-slate-600 p-3 mt-1 hover:bg-red-500">
             <a href="https://www.linkedin.com/in/md-firoj-ahmed-8209a01bb/" className="" target="_blank">
@@ -151,7 +152,7 @@ const NavberProfile = () => {
           </li>
 
 
-        </ul>
+        </ul> */}
 
       </div>
 
