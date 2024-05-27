@@ -1,0 +1,22 @@
+[
+    {
+        "id": "1",
+        "name":"WEB",
+        "icon": "material-symbols:web"
+    },
+    {
+        "id": "2",
+        "name":"BLOCKCHAIN",
+        "icon": "hugeicons:blockchain-03"
+    },
+    {
+        "id": "3",
+        "name":"ANDROID",
+        "icon": "devicon-plain:android"
+    },
+    {
+        "id": "4",
+        "name":"NO-FILTER",
+        "icon": "mdi:filter-off"
+    }
+]
