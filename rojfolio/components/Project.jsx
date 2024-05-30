@@ -26,10 +26,10 @@ const Project = () => {
     }
     return (
       <section className=" bg-stone-700 m-4 rounded-lg flex flex-wrap p-4 h-fit ">
-        <div className="flex flex-auto justify-evenly border rounded-md w-full">
+        <div className="flex flex-auto justify-evenly border rounded-md w-full flex-wrap flex-row">
           {filters.map((fil) => {
             return (
-              <button className="border-none px-2 py-1 rounded-md w-full hover:bg-blue-600 flex flex-row justify-center" onClick={()=>filterData(fil.name)} key={fil.id}>
+              <button className="border-none px-2 py-1 rounded-md  hover:bg-blue-600 flex flex-row justify-center  " onClick={()=>filterData(fil.name)} key={fil.id}>
                 <Icon icon={fil.icon} width="28" height="28" style={{ color: "white",margin:"2px",marginRight:"5px" }} />
                 <input type="radio" className="hidden" id={fil.name} />
                 <label className="cursor-pointer" htmlFor={fil.name} style={{ color: "white",fontSize:"22px" }} >{fil.name}</label>
