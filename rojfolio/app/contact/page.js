@@ -11,7 +11,7 @@ const initialData = {
   message: "",
 };
 const page = () => {
-  //const [emailData,setEmail] = useState(initialData);
+  const [emailData,setEmail] = useState(initialData);
   const inputEvent = (e) => {
     const { name, value } = e.target;
     setEmail({ ...emailData, [name]: value });
@@ -22,7 +22,9 @@ const page = () => {
     try {
       const url="/api/email";
       const data=await axios.post(url,emailData);
+      setEmail(initialData);
       //console.log(data);
+      alert("Email sent successfully!");
     } catch (error) {
       console.warn(error);
     }

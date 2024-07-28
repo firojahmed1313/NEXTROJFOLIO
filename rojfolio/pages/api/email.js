@@ -1,4 +1,4 @@
-import { sendEmail } from "@/backend/controlers/email"
+import { sendEmail } from "@/backend/controlers/resendEmail";
 
 export default async (req, res, next) => {
     switch (req.method) {
