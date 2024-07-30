@@ -1,5 +1,4 @@
 "use client"
-
 import React, { useState } from 'react'
 import emailqr from "@/public/qr-code email.png"
 import Image from 'next/image'
@@ -10,7 +9,7 @@ const initialData = {
   subject:"",
   message: "",
 };
-const page = () => {
+const Page = () => {
   const [emailData,setEmail] = useState(initialData);
   const inputEvent = (e) => {
     const { name, value } = e.target;
@@ -65,4 +64,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
