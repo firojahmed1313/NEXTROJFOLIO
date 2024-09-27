@@ -6,6 +6,7 @@ import Navber from "@/components/Navber";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
+  manifest: "/manifest.json",
   title: "MD FIROJ AHMED",
   description: "PROTFOLIO OF MD FIROJ AHMED",
 };

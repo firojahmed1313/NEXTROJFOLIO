@@ -18,7 +18,7 @@ const NavberProfile = () => {
       <div className={`m-auto w-[90%] mt-5 rounded-3xl flex flex-col align-middle justify-center h-  items-center sm:w-[50%] lg:w-[90%] `}>
 
         <div className="rounded-3xl">
-          <Image className='rounded-[50%]' src={profilePic} alt="MD FIROJ AHMED" width={"70%"} />
+          <Image unoptimized={true} className='rounded-[50%]' src={profilePic} alt="MD FIROJ AHMED" width={"70%"} />
         </div>
 
         <div className="mt-5">
