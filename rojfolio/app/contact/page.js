@@ -1,5 +1,4 @@
 "use client"
-
 import React, { useState } from 'react'
 import emailqr from "@/public/qr-code email.png"
 import Image from 'next/image'
@@ -10,8 +9,8 @@ const initialData = {
   subject:"",
   message: "",
 };
-const page = () => {
-  //const [emailData,setEmail] = useState(initialData);
+const Page = () => {
+  const [emailData,setEmail] = useState(initialData);
   const inputEvent = (e) => {
     const { name, value } = e.target;
     setEmail({ ...emailData, [name]: value });
@@ -22,7 +21,9 @@ const page = () => {
     try {
       const url="/api/email";
       const data=await axios.post(url,emailData);
+      setEmail(initialData);
       //console.log(data);
+      alert("Email sent successfully!");
     } catch (error) {
       console.warn(error);
     }
@@ -63,4 +64,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

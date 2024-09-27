@@ -1,6 +1,6 @@
 import nodemailer from 'nodemailer';
 
-export const sendEmail = (req, res, next) => {
+export const sendEmailnode = (req, res, next) => {
     const { name, email, subject, message } = req.body;
     console.log(name, email, subject, message);
     const textData= `"name":${name} "email":${email} "message":${message} `;
