@@ -1,0 +1,22 @@
+[
+    {
+        "icon": "@/public/icon-dev.svg",
+        "title": "Web Development",
+        "description": "High-quality development of sites at the professional level."
+    },
+    {
+        "icon": "@/public/blockchain.svg",
+        "title": "Machine Learning",
+        "description": ""
+    },
+    {
+        "icon": "@/public/icon-dev.svg",
+        "title": "Blockchain Development",
+        "description": "Professional development of website or app using Blockchain."
+    },
+    {
+        "icon": "@/public/blockchain.svg",
+        "title": "Mobile Development",
+        "description": "Developed a high-performance Mobile App using React Native."
+    }
+]

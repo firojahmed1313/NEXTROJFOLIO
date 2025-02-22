@@ -3,11 +3,17 @@ import Image from "next/image";
 import phone from "@/public/mobile.png";
 import web from "@/public/icon-dev.svg";
 import blockchain from "@/public/blockchain.svg"
+import machinelearning from "@/public/machineLearning.svg"
 const serviceData = [
     {
         icon: web,
         title: "Web Development",
         description: "High-quality development of sites at the professional level.",
+    },
+    {
+        icon: machinelearning,
+        title: "Machine Learning",
+        description: "",
     },
     {
         icon: blockchain,

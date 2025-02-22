@@ -1,6 +1,27 @@
 [
     {
         "id": 1,
+        "title": "Experience",
+        "icon": "material-symbols-light:desktop-windows-outline-rounded",
+        "data": [
+            {
+                "id": 1,
+                "name": "System Engineer",
+                "locaton": "TCS",
+                "timeline": "Present - Dec 2024",
+                "desc": ""
+            },
+            {
+                "id": 2,
+                "name": "Summer Intern",
+                "locaton": "Celebal Technologies Jaipur, Rajasthan 302017",
+                "timeline": "June 2023 - Aug 2023",
+                "desc": "Developed a high-performance frontend website for Movie lovers. Worked with Reactjs ,html , css,bootstrap,Reduxsaga. implemented Redux for state management, which allowed me to efficiently handle data flow and manage the application’s global state."
+            }
+        ]
+    },
+    {
+        "id": 2,
         "title": "Education",
         "icon": "material-symbols-light:school-outline",
         "data": [
@@ -8,7 +29,7 @@
                 "id": 1,
                 "name": "Kalyani Government Engineering College",
                 "locaton": "Kalyani, West Bengal 741235",
-                "timeline": "Present -2020",
+                "timeline": "2024 -2020",
                 "desc": "B.Tech in Computer Science And Engineeing    Cgpa: 9.14"
                 
             },
@@ -27,20 +48,6 @@
                 "timeline": "2014 — 2016",
                 "desc": "Secondary  percentage : 83.4"
 
-            }
-        ]
-    },
-    {
-        "id": 2,
-        "title": "Experience",
-        "icon": "material-symbols-light:desktop-windows-outline-rounded",
-        "data": [
-            {
-                "id": 1,
-                "name": "Summer Intern",
-                "locaton": "Celebal Technologies Jaipur, Rajasthan 302017",
-                "timeline": "June 2023 - Aug 2023",
-                "desc": "Developed a high-performance frontend website for Movie lovers. Worked with Reactjs ,html , css,bootstrap,Reduxsaga. implemented Redux for state management, which allowed me to efficiently handle data flow and manage the application’s global state."
             }
         ]
     },
